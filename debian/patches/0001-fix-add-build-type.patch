@@ -1,0 +1,27 @@
+From 53d860a8f68de2bfe3cd9cf3d62dd724be4b76ed Mon Sep 17 00:00:00 2001
+From: bluesky <chenchongbiao@deepin.org>
+Date: Tue, 10 Oct 2023 13:53:09 +0800
+Subject: [PATCH] fix: add build-type
+
+add build-type: Simple to hslua-packaging.cabal
+
+Log: add build-type
+---
+ hslua-packaging.cabal | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hslua-packaging.cabal b/hslua-packaging.cabal
+index 0a7d40d..587a832 100644
+--- a/hslua-packaging.cabal
++++ b/hslua-packaging.cabal
+@@ -16,6 +16,7 @@ author:              Albert Krewinkel
+ maintainer:          albert+hslua@zeitkraut.de
+ copyright:           © 2019-2022 Albert Krewinkel
+ category:            Foreign
++build-type:          Simple
+ extra-source-files:  README.md
+                    , CHANGELOG.md
+ tested-with:         GHC == 8.0.2
+-- 
+2.33.1
+
